@@ -1,0 +1,103 @@
+body{
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+ #isimForm{
+    margin-left: 40%;
+    margin-top: 9%;
+}
+#ad{
+    width: 40%;
+    height: 25px;
+    text-align: center;
+}
+#Soyad{
+    width: 40%;
+    height: 25px;
+    text-align: center;
+}
+#yas{
+    width: 40%;
+    height: 25px;
+    text-align: center;
+}
+#meslek{
+    width: 40%;
+    height: 25px;
+    text-align: center;
+}
+.button-green{
+    width: 41%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(0, 255, 0);
+}
+nav.isimListBaslik ul{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+}
+nav.isimListBaslik ul li,
+nav.isimListesi ul li{
+    width: 12%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.848);
+    color: white;
+}
+ul,li,ol{
+    list-style-type: none;
+}
+nav.isimListesi ul{
+    display: flex;
+    padding: 5px;
+    text-align: center;
+    margin-left: 5px;
+    
+}
+.isimList{
+    margin-left: 20%;
+    margin-top: 2%;
+}
+nav.isimListesi ul li {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.726);
+    color: black;
+}
+.hata{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 10px;
+    width: 23%;
+    margin-left: 40%;
+    margin-top: -50px;
+    float: left;
+}
+.onay{
+    background-color: rgb(51, 255, 0);
+    color: white;
+    padding: 10px;
+    width: 23%;
+    margin-left: 40%;
+    margin-top: -50px;
+    float: left;
+}
+.edit {
+    text-align: center;
+    background-color: rgb(38, 255, 0);
+    color: black;
+    margin-left: 7.5%;
+    width: 70px;
+}
+.sil {
+    text-align: center;
+    background-color: rgba(252, 0, 0, 0.999);
+    color: black;
+    margin-left: 4%;
+    width: 70px;
+}
+
+
+
